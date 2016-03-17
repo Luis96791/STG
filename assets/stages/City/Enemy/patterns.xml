@@ -1,0 +1,8 @@
+<PatternsFile>
+	<Type name="A">
+		<Pattern bullet="basic bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
+	</Type>
+	<Type name="B">
+		<Pattern bullet="basic bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="no"/>
+	</Type>
+</PatternsFile>
