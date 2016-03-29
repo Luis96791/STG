@@ -1,0 +1,7 @@
+<ModifiersFile>
+	<Modifier at="10" pattern_type="A"/>
+	<Modifier at="110" pattern_type="B"/>
+	<Modifier at="210" pattern_type="A"/>
+	<Modifier at="310" pattern_type="B"/>
+	<Modifier at="410" iterator="0" frame="0" pattern_type="A"/>
+</ModifiersFile>

@@ -1,0 +1,14 @@
+<PatternsFile>
+	<Type name="A">
+		<Pattern bullet="basic bullet" velocity="10" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes">
+                  <Modifier at="20" velocity="20"/>
+                </Pattern>
+	</Type>
+	<Type name="B">
+		<Pattern bullet="basic bullet" velocity="2" angle="45" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
+                <Pattern bullet="basic bullet" velocity="2" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes"/>
+                <Pattern bullet="basic bullet" velocity="2" angle="-45" max_velocity="15" animation_velocity="5" startup="0" cooldown="20" aim_player="yes">
+                  <Modifier at="50" angle="0" aim_player="yes"/>
+                </Pattern>
+	</Type>
+</PatternsFile>

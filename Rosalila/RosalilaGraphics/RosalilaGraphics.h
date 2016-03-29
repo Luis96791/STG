@@ -12,8 +12,8 @@
 #endif
 
 #ifdef WINDOWS
-#include <SDL2/SDL_image.h>
-#include <SDL2/SDL_ttf.h>
+#include <SDL_image.h>
+#include <SDL_ttf.h>
 #endif
 
 #ifdef OSX
@@ -24,7 +24,7 @@
 
 #include "../TinyXml/tinyxml.h"
 
-#include <SDL2/SDL_opengl.h>
+#include <SDL_opengl.h>
 #include <stdio.h>
 
 #include "../RosalilaGraphics/FlatShadow.h"
