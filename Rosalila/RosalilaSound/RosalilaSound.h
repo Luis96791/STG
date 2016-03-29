@@ -17,7 +17,7 @@ using namespace std;
 #endif
 
 #ifdef WINDOWS
-#include <SDL2/SDL_mixer.h>
+#include <SDL_mixer.h>
 #endif
 
 #ifdef OSX

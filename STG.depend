@@ -2605,18 +2605,17 @@
 	<assert.h>
 	<string.h>
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/RosalilaGraphics.h
+1459262888 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/RosalilaGraphics.h
 	<iostream>
 	<list>
 	"../system.h"
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_ttf.h>
-	<SDL2/SDL_image.h>
-	<SDL2/SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
 	<SDL2_image/SDL_image.h>
 	<SDL2_ttf/SDL_ttf.h>
 	"../TinyXml/tinyxml.h"
-	<SDL2/SDL_opengl.h>
 	<stdio.h>
 	"../RosalilaGraphics/FlatShadow.h"
 	"../RosalilaGraphics/Image.h"
@@ -2649,14 +2648,14 @@
 	"../RosalilaSound/RosalilaSound.h"
 	"../RosalilaInputs/RosalilaInputs.h"
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaSound/RosalilaSound.h
+1459262894 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaSound/RosalilaSound.h
 	"../system.h"
 	<string>
 	<vector>
 	<iostream>
 	"SDL2/SDL.h"
 	<SDL2/SDL_mixer.h>
-	<SDL2/SDL_mixer.h>
+	<SDL_mixer.h>
 	<SDL2_mixer/SDL_mixer.h>
 	"../RosalilaUtility/RosalilaUtility.h"
 	<map>
@@ -2669,7 +2668,7 @@
 1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Boton.h
 	"../RosalilaInputs/Receiver.h"
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Receiver.h
+1459262901 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Receiver.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -2700,7 +2699,7 @@
 	<vector>
 	<iostream>
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Image.h
+1459263076 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Image.h
 	<SDL2/SDL_image.h>
 	<SDL2_image/SDL_image.h>
 	<SDL2/SDL_opengl.h>
@@ -2708,22 +2707,22 @@
 
 1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Timer.h
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Explosion.h
+1459262057 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Explosion.h
 	<SDL2/SDL_image.h>
-	<SDL2/SDL_image.h>
+	<SDL_image.h>
 	<SDL2_image/SDL_image.h>
 	<GL/gl.h>
 	<stdio.h>
 	<math.h>
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Cube.h
+1459263119 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Cube.h
 	<SDL2/SDL_image.h>
 	<SDL2_image/SDL_image.h>
 	<SDL2/SDL_opengl.h>
 	<stdio.h>
 	<math.h>
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Object3D.h
+1459263139 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Object3D.h
 	<SDL2/SDL_image.h>
 	<SDL2_image/SDL_image.h>
 	<SDL2/SDL_opengl.h>
@@ -2884,7 +2883,7 @@
 	"Stage/Stage.h"
 	"Rosalila/RosalilaGraphics/Animation.h"
 
-1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Animation.h
+1459263092 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Animation.h
 	<SDL2/SDL_image.h>
 	<SDL2_image/SDL_image.h>
 	<SDL2/SDL_opengl.h>
@@ -2927,7 +2926,7 @@
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/RosalilaGraphics.cpp
 	"RosalilaGraphics.h"
 
-1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Timer.cpp
+1459262524 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Timer.cpp
 	"SDL2/SDL.h"
 	"Timer.h"
 
@@ -3030,5 +3029,464 @@
 	"STGMenu.h"
 
 1457627147 source:/home/luis/Escritorio/GitHub/STG/STGUtility/STGUtility.cpp
+	"STGUtility.h"
+
+1458237385 source:c:\users\kurisu\documents\stg\character\character.cpp
+	"Character.h"
+
+1458237385 c:\users\kurisu\documents\stg\character\character.h
+	<map>
+	<list>
+	<vector>
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"../Spells/Bullet.h"
+	"../Spells/Pattern.h"
+	"../Rosalila/RosalilaUtility/RosalilaUtility.h"
+	"Modifier.h"
+	"../Rosalila/RosalilaNetwork/RosalilaNetwork.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1459029774 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\rosalilagraphics.h
+	<iostream>
+	<list>
+	"../system.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2_ttf/SDL_ttf.h>
+	"../TinyXml/tinyxml.h"
+	<SDL_opengl.h>
+	<stdio.h>
+	"../RosalilaGraphics/FlatShadow.h"
+	"../RosalilaGraphics/Image.h"
+	"../RosalilaGraphics/Timer.h"
+	"../RosalilaGraphics/Explosion.h"
+	"../RosalilaGraphics/Cube.h"
+	"../RosalilaGraphics/Object3D.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<iostream>
+	<fstream>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\system.h
+	<iostream>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\flatshadow.h
+	<vector>
+	"../RosalilaUtility/RosalilaUtility.h"
+	"../RosalilaGraphics/Image.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilautility\rosalilautility.h
+	<iostream>
+	<fstream>
+	<cmath>
+	<vector>
+	"Hitbox.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilautility\hitbox.h
+	"../TinyXml/tinyxml.h"
+	"../RosalilaGraphics/RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1459029787 c:\users\kurisu\documents\stg\rosalila\rosalilasound\rosalilasound.h
+	"../system.h"
+	<string>
+	<vector>
+	<iostream>
+	"SDL.h"
+	<SDL2/SDL_mixer.h>
+	<SDL_mixer.h>
+	<SDL2_mixer/SDL_mixer.h>
+	"../RosalilaUtility/RosalilaUtility.h"
+	<map>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilainputs\rosalilainputs.h
+	"../system.h"
+	"../RosalilaInputs/Boton.h"
+	"../RosalilaAI/RosalilaAI.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilainputs\boton.h
+	"../RosalilaInputs/Receiver.h"
+
+1459029800 c:\users\kurisu\documents\stg\rosalila\rosalilainputs\receiver.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	"../TinyXml/tinyxml.h"
+	"SDL.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilaai\rosalilaai.h
+	"Automata.h"
+	<cstdlib>
+	<iostream>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilaai\automata.h
+	"Estado.h"
+	"../TinyXml/tinyxml.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<vector>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilaai\estado.h
+	"Transicion.h"
+	<cstdlib>
+	<iostream>
+	<vector>
+	"Estado.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilaai\transicion.h
+	<map>
+	<vector>
+	<iostream>
+
+1459029807 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\image.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL_opengl.h>
+	<stdio.h>
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\timer.h
+
+1459029814 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\explosion.h
+	<SDL2/SDL_image.h>
+	<SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<GL/gl.h>
+	<stdio.h>
+	<math.h>
+
+1459029820 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\cube.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+
+1459029825 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\object3d.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+	<vector>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1458237387 c:\users\kurisu\documents\stg\spells\bullet.h
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"../Rosalila/RosalilaUtility/Hitbox.h"
+
+1458237387 c:\users\kurisu\documents\stg\spells\pattern.h
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"Bullet.h"
+	"../Rosalila/RosalilaUtility/Hitbox.h"
+	"../Character/Modifier.h"
+	"../STGUtility/STGUtility.h"
+	<cmath>
+
+1458237386 c:\users\kurisu\documents\stg\character\modifier.h
+	<iostream>
+
+1458237387 c:\users\kurisu\documents\stg\stgutility\stgutility.h
+	<iostream>
+	<fstream>
+	<cmath>
+	<vector>
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilanetwork\rosalilanetwork.h
+
+1458237385 source:c:\users\kurisu\documents\stg\character\enemy.cpp
+	"Enemy.h"
+
+1458237386 c:\users\kurisu\documents\stg\character\enemy.h
+	<map>
+	<list>
+	<vector>
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"../Spells/Bullet.h"
+	"../Spells/Pattern.h"
+	"Character.h"
+	"Player.h"
+
+1458237386 c:\users\kurisu\documents\stg\character\player.h
+	<map>
+	<list>
+	<vector>
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"../Spells/Bullet.h"
+	"../Spells/Pattern.h"
+	"Character.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\character\modifier.cpp
+	"Modifier.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\character\player.cpp
+	"Player.h"
+
+1458237390 source:c:\users\kurisu\documents\stg\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	<string>
+	"Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"Rosalila/RosalilaSound/RosalilaSound.h"
+	"STGMenu/STGMenu.h"
+	"Rosalila/RosalilaUtility/RosalilaUtility.h"
+	"STGUtility/STGUtility.h"
+	<iostream>
+
+1458237386 c:\users\kurisu\documents\stg\stgmenu\stgmenu.h
+	"../Stage/Stage.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaMenus/MenuContenedor.h"
+	"../Rosalila/RosalilaMenus/MenuCharSelect.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../STG.h"
+
+1458237387 c:\users\kurisu\documents\stg\stage\stage.h
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Character/Character.h"
+	"Layer.h"
+	"Dialogue.h"
+	"../STGUtility/STGUtility.h"
+	<map>
+
+1458237387 c:\users\kurisu\documents\stg\stage\layer.h
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+
+1458237387 c:\users\kurisu\documents\stg\stage\dialogue.h
+	"../Rosalila/TinyXml/tinyxml.h"
+	"../Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"../Rosalila/RosalilaSound/RosalilaSound.h"
+	"../Rosalila/RosalilaInputs/RosalilaInputs.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menucontenedor.h
+	"Elemento.h"
+	"MenuLista.h"
+	"MenuBarra.h"
+	"MenuBoton.h"
+	"MenuImagen.h"
+	"MenuTexto.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\elemento.h
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menulista.h
+	<vector>
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menubarra.h
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menuboton.h
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menuimagen.h
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menutexto.h
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menucharselect.h
+	<vector>
+	"Elemento.h"
+
+1458237386 c:\users\kurisu\documents\stg\stg.h
+	"Rosalila/TinyXml/tinyxml.h"
+	"Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"Rosalila/RosalilaSound/RosalilaSound.h"
+	"Rosalila/RosalilaInputs/RosalilaInputs.h"
+	"Character/Character.h"
+	"Character/Player.h"
+	"Character/Enemy.h"
+	"Stage/Stage.h"
+	"Rosalila/RosalilaGraphics/Animation.h"
+
+1459029849 c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\animation.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL_opengl.h>
+	<stdio.h>
+	"../TinyXml/tinyxml.h"
+	"RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilaai\automata.cpp
+	"Automata.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilaai\estado.cpp
+	"Estado.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilaai\rosalilaai.cpp
+	"RosalilaAI.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilaai\transicion.cpp
+	"Transicion.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\animation.cpp
+	"Animation.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\cube.cpp
+	"Cube.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\explosion.cpp
+	"Explosion.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\flatshadow.cpp
+	"FlatShadow.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\image.cpp
+	"RosalilaGraphics.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\object3d.cpp
+	"Object3D.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\rosalilagraphics.cpp
+	"RosalilaGraphics.h"
+
+1459029893 source:c:\users\kurisu\documents\stg\rosalila\rosalilagraphics\timer.cpp
+	"SDL.h"
+	"Timer.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilainputs\boton.cpp
+	"Boton.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilainputs\receiver.cpp
+	"RosalilaInputs.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilainputs\rosalilainputs.cpp
+	"RosalilaInputs.h"
+	<sstream>
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\elemento.cpp
+	"Elemento.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menubarra.cpp
+	"MenuBarra.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menuboton.cpp
+	"MenuBoton.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menucharselect.cpp
+	"MenuCharSelect.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menucontenedor.cpp
+	"MenuContenedor.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menugallery.cpp
+	"MenuGallery.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menugallery.h
+	<vector>
+	"Elemento.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menuimagen.cpp
+	"MenuImagen.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menulista.cpp
+	"MenuLista.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilamenus\menutexto.cpp
+	"MenuTexto.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilanetwork\rosalilanetwork.cpp
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilasound\rosalilasound.cpp
+	"RosalilaSound.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilautility\font.cpp
+	"Font.h"
+
+1458237386 c:\users\kurisu\documents\stg\rosalila\rosalilautility\font.h
+	<iostream>
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilautility\hitbox.cpp
+	"Hitbox.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\rosalilautility\rosalilautility.cpp
+	"RosalilaUtility.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\rosalila\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1458237387 source:c:\users\kurisu\documents\stg\spells\bullet.cpp
+	"Bullet.h"
+
+1458237387 source:c:\users\kurisu\documents\stg\spells\pattern.cpp
+	"Pattern.h"
+
+1458237387 source:c:\users\kurisu\documents\stg\stage\dialogue.cpp
+	"Dialogue.h"
+
+1458237387 source:c:\users\kurisu\documents\stg\stage\layer.cpp
+	"Layer.h"
+
+1458237387 source:c:\users\kurisu\documents\stg\stage\stage.cpp
+	"Stage.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\stg.cpp
+	"STG.h"
+
+1458237386 source:c:\users\kurisu\documents\stg\stgmenu\stgmenu.cpp
+	"STGMenu.h"
+
+1458237387 source:c:\users\kurisu\documents\stg\stgutility\stgutility.cpp
 	"STGUtility.h"
 
