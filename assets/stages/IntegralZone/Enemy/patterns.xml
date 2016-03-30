@@ -1,0 +1,12 @@
+<PatternsFile>
+	<Type name="1">
+    <Repeat amount="25" angle="8">
+      <Pattern bullet="basic bullet" velocity="9" angle_change="1" cooldown="10" duration="100"/>
+    </Repeat>
+	</Type>
+	<Type name="2">
+    <Repeat amount="13" angle=45">
+      <Pattern bullet="basic bullet" velocity="12" angle_change="2" cooldown="10" duration="100"/>
+    </Repeat>
+	</Type>
+</PatternsFile>

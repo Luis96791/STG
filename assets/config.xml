@@ -8,10 +8,11 @@
 		<char name="MyCharacter3"/>
 		<char name="MyCharacter"/>
 		<char name="MyCharacter2"/>
-		<char name="Square"/>
+		<char name="MC4"/>
 		<char name="Iguro"/>
 	</Chars>
 	<Stages>
+		<stage name="IntegralZone"/>
 		<stage name="MyStage"/>
 		<stage name="TheXzone"/>
 		<stage name="City"/>
