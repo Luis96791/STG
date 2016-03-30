@@ -10,7 +10,7 @@
 using namespace std;
 
 //SDL
-#include "SDL.h"
+#include "SDL2/SDL.h"
 
 #ifdef LINUX
 #include <SDL2/SDL_mixer.h>

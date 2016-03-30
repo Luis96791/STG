@@ -24,7 +24,7 @@
 
 #include "../TinyXml/tinyxml.h"
 
-#include <SDL_opengl.h>
+//#include <SDL_opengl.h>
 #include <stdio.h>
 
 #include "../RosalilaGraphics/FlatShadow.h"
