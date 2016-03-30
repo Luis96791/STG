@@ -842,6 +842,9 @@ void Character::topRender()
 
 int Character::getX()
 {
+    if(getHP()<10){
+        return this->x+30;
+    }
     return this->x;
 }
 
