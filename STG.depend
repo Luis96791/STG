@@ -2764,7 +2764,7 @@
 
 1457627334 /home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaNetwork/RosalilaNetwork.h
 
-1457627147 source:/home/luis/Escritorio/GitHub/STG/Character/Enemy.cpp
+1459354859 source:/home/luis/Escritorio/GitHub/STG/Character/Enemy.cpp
 	"Enemy.h"
 
 1457627147 /home/luis/Escritorio/GitHub/STG/Character/Enemy.h
@@ -2795,7 +2795,7 @@
 1457627147 source:/home/luis/Escritorio/GitHub/STG/Character/Modifier.cpp
 	"Modifier.h"
 
-1457627147 source:/home/luis/Escritorio/GitHub/STG/Character/Player.cpp
+1459354994 source:/home/luis/Escritorio/GitHub/STG/Character/Player.cpp
 	"Player.h"
 
 1457627147 source:/home/luis/Escritorio/GitHub/STG/main.cpp
@@ -2905,7 +2905,7 @@
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaAI/Transicion.cpp
 	"Transicion.h"
 
-1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Animation.cpp
+1459356937 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Animation.cpp
 	"Animation.h"
 
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Cube.cpp
@@ -2923,7 +2923,7 @@
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Object3D.cpp
 	"Object3D.h"
 
-1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/RosalilaGraphics.cpp
+1459350594 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/RosalilaGraphics.cpp
 	"RosalilaGraphics.h"
 
 1459262524 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaGraphics/Timer.cpp
@@ -2933,7 +2933,7 @@
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Boton.cpp
 	"Boton.h"
 
-1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Receiver.cpp
+1459356051 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/Receiver.cpp
 	"RosalilaInputs.h"
 
 1457627334 source:/home/luis/Escritorio/GitHub/STG/Rosalila/RosalilaInputs/RosalilaInputs.cpp
@@ -3019,10 +3019,10 @@
 1457627147 source:/home/luis/Escritorio/GitHub/STG/Stage/Layer.cpp
 	"Layer.h"
 
-1457627147 source:/home/luis/Escritorio/GitHub/STG/Stage/Stage.cpp
+1459354537 source:/home/luis/Escritorio/GitHub/STG/Stage/Stage.cpp
 	"Stage.h"
 
-1457627147 source:/home/luis/Escritorio/GitHub/STG/STG.cpp
+1459356534 source:/home/luis/Escritorio/GitHub/STG/STG.cpp
 	"STG.h"
 
 1457627147 source:/home/luis/Escritorio/GitHub/STG/STGMenu/STGMenu.cpp
