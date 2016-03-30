@@ -20,12 +20,12 @@ void Animation::render()
 {
     if(animation_iteration>=animation_velocity)
     {
-        current_frame--;
-        if((int)images.size()>=current_frame)
-            current_frame=(int)images.size();
+        current_frame++;
+        if(current_frame>=(int)images.size())
+            current_frame=0;
         animation_iteration=0;
     }
-    animation_iteration--;
+    animation_iteration++;
 
     painter->draw2DImage
     (   images[current_frame],
