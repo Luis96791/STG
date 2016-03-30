@@ -1,0 +1,8 @@
+<PatternsFile>
+	<Type name="demo pattern">
+		<Pattern bullet="basic bullet" velocity="25" acceleration="0" angle="180" max_velocity="15" offset_x="0" offset_y="0" animation_velocity="5" startup="0" cooldown="20"/>
+		<Pattern bullet="basic bullet" velocity="25" acceleration="0" angle="170" max_velocity="15" offset_x="0" offset_y="0" animation_velocity="5" startup="0" cooldown="20"/>
+		<Pattern bullet="basic bullet" velocity="25" acceleration="0" angle="160" max_velocity="15" offset_x="0" offset_y="0" animation_velocity="5" startup="0" cooldown="20"/>
+		<Pattern bullet="basic bullet" velocity="25" acceleration="0" angle="150" max_velocity="15" offset_x="0" offset_y="0" animation_velocity="5" startup="0" cooldown="20"/>
+	</Type>
+</PatternsFile>
