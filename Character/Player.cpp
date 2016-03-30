@@ -140,7 +140,7 @@ void Player::loadPlayerFromXML()
 
 void Player::inputControl()
 {
-    if(receiver->isKeyDown(SDL_SCANCODE_DOWN)
+    if(receiver->isKeyDown(SDL_SCANCODE_W)
        || receiver->isJoyDown(-2,0))
     {
         if(orientation!="down" && this->sonido->soundExists(name+".down"))
