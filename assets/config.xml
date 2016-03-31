@@ -5,6 +5,7 @@
 	<Fullscreen enabled="no"/>
 	<Font red="0" green="0" blue="255" size="80"/>
 	<Chars>
+		<char name="CarlosHChar"/>
 		<char name="MyCharacter3"/>
 		<char name="MyCharacter"/>
 		<char name="MyCharacter2"/>
@@ -12,7 +13,11 @@
 		<char name="Iguro"/>
 	</Chars>
 	<Stages>
+<<<<<<< HEAD
 		<stage name="IntegralZone"/>
+=======
+		<stage name="CarlosHStage"/>
+>>>>>>> f7dfadd68cc96728e87865645c0d186111a6a2b8
 		<stage name="MyStage"/>
 		<stage name="TheXzone"/>
 		<stage name="City"/>
