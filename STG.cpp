@@ -109,9 +109,13 @@ void STG::mainLoop()
                 break;
             if(receiver->isKeyPressed(SDLK_z) && end_key_up_keyboard)
                 break;
+            if(receiver->isKeyPressed(SDLK_x) && end_key_up_keyboard)
+                break;
             if(receiver->isJoyDown(0,0) && end_key_up_joystick)
                 break;
             if(!receiver->isKeyPressed(SDLK_z))
+                end_key_up_keyboard=true;
+            if(!receiver->isKeyPressed(SDLK_x))
                 end_key_up_keyboard=true;
             if(!receiver->isJoyPressed(0,0))
                 end_key_up_joystick=true;
@@ -145,7 +149,7 @@ void STG::logic()
                         if(receiver->isKeyDown(SDL_SCANCODE_RIGHT)
                            || receiver->isJoyDown(-6,0))
                         {
-                            player->setX(player->getX()+150);
+                            player->setX(player->getX()-150);
                         }
                         if(receiver->isKeyDown(SDL_SCANCODE_LEFT)
                            || receiver->isJoyDown(-4,0))
@@ -160,13 +164,13 @@ void STG::logic()
                         if(receiver->isKeyDown(SDL_SCANCODE_DOWN)
                            || receiver->isJoyDown(-8,0))
                         {
-                            player->setY(player->getY()+150);
+                            player->setY(player->getY()-150);
                         }
 
                         p->velocity=10;
                         if(p->x>player->getX())
                         {
-                            p->angle=135;
+                            p->angle=15;
                         }else
                         {
                             p->angle=-135;

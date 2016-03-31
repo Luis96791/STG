@@ -16,7 +16,7 @@ Enemy::Enemy(Sound* sonido,RosalilaGraphics* painter,Receiver* receiver,std::str
     this->visible=true;
 
     //Enemy variables
-    this->angle=180;
+    this->angle=1;
     this->velocity=0;
     this->angle_change=0;
 
@@ -142,7 +142,7 @@ void Enemy::logic(int stage_velocity, string stage_name, int global_iteration, s
     this->angle+=this->angle_change / getSlowdown();
 
     this->x += cos (angle*PI/180) * velocity / getSlowdown() + stage_velocity;
-    this->y -= sin (angle*PI/180) * velocity / getSlowdown();
+    this->y += sin (angle*PI/180) * velocity / getSlowdown();
 
     getIterateSlowdownFlag();
 

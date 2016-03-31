@@ -70,12 +70,12 @@ RosalilaGraphics::RosalilaGraphics()
     textColor.g = font_green;
     textColor.b = font_blue;
 
-    string font_path=assets_directory+"misc/font.ttf";
+    string font_path=assets_directory+"misc/horrendo.ttf";
     font = TTF_OpenFont( font_path.c_str(), font_size );
 
     if(font==NULL)
     {
-        writeLogLine("Could not init font. Place it on /misc/font.ttf .");
+        writeLogLine("Could not init font. Place it on /misc/horrendo.ttf .");
     }
 
     SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); // *new*
